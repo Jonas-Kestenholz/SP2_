@@ -15,9 +15,10 @@ public class MapDTO {
     public MapDTO() {
     }
 
-    public MapDTO(Long id, String name, Long gameId) {
+    public MapDTO(Long id, String name, Long gameId, List<Long> strategyIds) {
         this.id = id;
         this.name = name;
         this.gameId = gameId;
+        this.strategyIds = strategyIds;
     }
 }
