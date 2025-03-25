@@ -30,9 +30,10 @@ public class Strategy {
     public Strategy() {
     }
 
-    public Strategy(String title, String description, StrategyType type) {
+    public Strategy(String title, String description, Boolean teamId, StrategyType type) {
         this.title = title;
         this.description = description;
+        this.teamId = teamId;
         this.type = type;
     }
 }

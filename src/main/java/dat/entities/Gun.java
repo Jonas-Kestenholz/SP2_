@@ -23,8 +23,9 @@ public class Gun {
     public Gun() {
     }
 
-    public Gun(String name, Game game) {
+    public Gun(String name, boolean teamId, Game game) {
         this.name = name;
+        this.teamId = teamId;
         this.game = game;
     }
 }
