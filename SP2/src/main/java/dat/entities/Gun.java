@@ -15,6 +15,7 @@ public class Gun {
     private Long id;
 
     private String name;
+    private boolean teamId;
 
     @ManyToOne
     private Game game;

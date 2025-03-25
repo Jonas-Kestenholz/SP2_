@@ -19,6 +19,7 @@ public class Strategy {
 
     private String title;
     private String description;
+    private boolean teamId;
 
     @Enumerated(EnumType.STRING)
     private StrategyType type;

@@ -15,8 +15,10 @@ public class GameDTO {
     public GameDTO() {
     }
 
-    public GameDTO(Long id, String name) {
+    public GameDTO(Long id, String name, List<Long> mapIds, List<Long> gunIds) {
         this.id = id;
         this.name = name;
+        this.mapIds = mapIds;
+        this.gunIds = gunIds;
     }
 }
