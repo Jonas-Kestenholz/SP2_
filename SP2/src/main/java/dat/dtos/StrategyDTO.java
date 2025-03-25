@@ -1,6 +1,6 @@
 package dat.dtos;
 
-import lombok.Data;
+import lombok.*;
 
 import java.util.List;
 @Data
