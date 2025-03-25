@@ -8,7 +8,7 @@ public class StrategyDTO {
     private Long id;
     private String title;
     private String description;
-    private String type;  // SERIOUS, AVERAGE, TROLL
+    private String type;
 
     private List<Long> mapIds;
 
